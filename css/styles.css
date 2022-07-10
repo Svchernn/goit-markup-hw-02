@@ -3,6 +3,8 @@
     --secondary-font: 'Raleway', sans-serif;
     --primary-theme-color: #E5E5E5;
     --secondary-theme-color: #F5F4FA;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
 }
 .list {
     list-style: none;
@@ -46,7 +48,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -57,7 +59,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -96,7 +98,7 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
     background-color: #F5F4FA;
 }
 /* SECTION */
@@ -106,7 +108,7 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .description-subtitle {
     font-weight: 700;
@@ -114,14 +116,14 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .description-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .team-subtitle {
     font-weight: 500;
@@ -129,7 +131,7 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .team-text {
     font-weight: 400;
@@ -137,7 +139,7 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .team-section {
     color: var(--secondary-theme-color);
@@ -175,4 +177,17 @@ body {
     cursor: pointer;
 }
 /* PORTFOLIO */
-.
+.project-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.project-example {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
