@@ -1,6 +1,8 @@
 :root {
     --accent-color: #2196F3;
     --secondary-font: 'Raleway', sans-serif;
+    --primary-theme-color: #E5E5E5;
+    --secondary-theme-color: #F5F4FA;
 }
 .list {
     list-style: none;
@@ -8,8 +10,15 @@
 .link {
 text-decoration: none;
 }
+.button {
+    cursor: pointer;
+}
+.adress {
+    font-style: normal;
+}
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-theme-color);
 }
 /* HEADER */
 .logo-link {
@@ -73,8 +82,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: var(--accent-color);
-    cursor: pointer;
-}
+    }
 .hero {
     background-color: #2F303A;
 }
@@ -118,6 +126,9 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+.team-section {
+    color: var(--secondary-theme-color);
+}
 /* FOOTER */
 .footer {
     background-color: #000000;
@@ -150,3 +161,5 @@ body {
     color: var(--accent-color);
     cursor: pointer;
 }
+/* PORTFOLIO */
+.
